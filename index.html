@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+
+
+    <div class="parent vh-100 d-flex justify-content-center align-items-center">
+        <div class="item text-center shadow-lg p-3 rounded">
+          <h2 class="p-3">Smart login system</h2>
+          <div class="d-flex flex-column align-items-center">
+            <input id="input4" type="email" class="form-control w-75 border-1 bg-transparent text-white" id="email" placeholder="Enter your email">
+            <input  id="input5" type="password" class="form-control w-75 border-1 mt-2 bg-transparent text-white" id="password" placeholder="Enter your password">
+          </div>
+          <div class="ok d-none">
+            <h4 class="h6 text-danger "> email already exists</h4>
+          </div>
+          <div class="vaild d-none">
+            <h4 class="h6 text-success "> sucess</h4>
+          </div>
+          <div class="isvaild d-none">
+            <h4 class="h6 text-danger "> all input required</h4>
+          </div>
+          <button onclick="SignIN()" id="button2" type="button" class=" btn btn-outline-secondary w-75 border-1 mt-4">Login</button>
+          
+          <h6 class="mt-2 text-white">Don't have an account?</h6>
+          <a class="oni text-white" href="index1.html">Sign up</a>
+        </div>
+      </div>
+      
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

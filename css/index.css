@@ -1,0 +1,33 @@
+.item h2{
+    color: #17a2b8;;
+}
+
+.item{
+    width: 500px;
+    background-color: #293841;
+    height: 400px;
+
+   
+}
+.parent{
+    background-color: #24353f;
+  
+}
+.oni{
+    text-decoration: none;
+
+}
+.nono{
+    color: white;
+}
+#bu{
+    color: #17a2b8;;
+}
+.container{
+    background-color: #24353f;
+
+}
+#nav{
+    background-color: #293841;
+  
+}
